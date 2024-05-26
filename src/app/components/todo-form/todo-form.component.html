@@ -1,0 +1,6 @@
+<div class="flex justify-center">
+    <div class="input-group mb-4 max-w-md">
+      <input type="text" [(ngModel)]="todoTitle" class="form-control border rounded-l-lg px-4 py-2 outline-indigo-200 duration-150 bg-opacity-20 bg-white text-lg border-gray-400" name='todo' placeholder="Enter your next todo" (keyup.enter)="handleAdd()">
+      <button class="btn btn-primary bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5 rounded-r-lg" (click)="handleAdd()">Add Todo</button>
+    </div>
+</div>
